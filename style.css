@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputs{
+    display: flex;
+    align-items:normal;
+    margin-top: 10px;
+}
+
+.inputs label{
+    flex: 0 0 200px; 
+    margin-right: 10px;
+}
+
+.objeto-central{
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #025305;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 42.5%;
+}
+
+button:hover {
+    background-color: #45a049;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
