@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas Diárias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="conteiner">
+    <h1 id="title">Gerenciador de Tarefas Diárias</h1>
+    <form id="formulario-tarefa">
+        <input type="hidden" id="id-tarefa">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" required></textarea>
+
+        <label for="categoria">Categoria:</label>
+        <input type="text" id="categoria" required>
+
+        <label for="prioridade">Prioridade:</label>
+        <select id="prioridade" required>
+
+            <option value="baixa">Baixa</option>
+            <option value="media">Média</option>
+            <option value="alta">Alta</option>
+
+        </select>
+        <label for="data-execucao">Data de Execução:</label>
+        <input type="date" id="data-execucao" required>
+
+        <button type="submit">Registrar Tarefa</button>
+    </form>
+
+    
+    </div>
+    <div id="tarefas"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
